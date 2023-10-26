@@ -1,0 +1,205 @@
+<mxfile host="app.diagrams.net" modified="2023-10-26T11:52:56.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="lpbGCKVlkHxs_4tyzLiT" version="22.0.8" type="device">
+  <diagram name="Página-1" id="OcyELO2SeWlP8XsfFav0">
+    <mxGraphModel dx="1161" dy="2286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bPgU5AWaPYfsvX3QOXEM-1" target="bPgU5AWaPYfsvX3QOXEM-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="bPgU5AWaPYfsvX3QOXEM-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="321" y="366" as="targetPoint" />
+            <mxPoint x="151" y="256" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="151" y="366" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-1" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
+          <mxGeometry x="110" y="160" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bPgU5AWaPYfsvX3QOXEM-2" target="bPgU5AWaPYfsvX3QOXEM-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-2" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" parent="1" vertex="1">
+          <mxGeometry x="115" y="-10" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bPgU5AWaPYfsvX3QOXEM-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364.5000000000002" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-23" value="Escrita" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bPgU5AWaPYfsvX3QOXEM-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0864" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-6" value="Lambda Alimenta DynamoDB" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="330" y="174" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="bPgU5AWaPYfsvX3QOXEM-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="20" />
+              <mxPoint x="450" y="-10" />
+              <mxPoint x="740" y="-10" />
+              <mxPoint x="740" y="210" />
+            </Array>
+            <mxPoint x="410" y="20" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-41" value="Leitura" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bPgU5AWaPYfsvX3QOXEM-38" vertex="1" connectable="0">
+          <mxGeometry x="-0.2993" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-8" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="330" y="-10" width="72" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-10" value="Lambda Controle Disparo &lt;br&gt;Pre Fluxo" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="330" y="330" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-14" value="StepFunction&lt;br&gt;Regua Normal" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.step_functions;" parent="1" vertex="1">
+          <mxGeometry x="543" y="327" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bPgU5AWaPYfsvX3QOXEM-10" target="bPgU5AWaPYfsvX3QOXEM-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-17" value="SQS" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="1" vertex="1">
+          <mxGeometry x="754" y="327" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bPgU5AWaPYfsvX3QOXEM-14" target="bPgU5AWaPYfsvX3QOXEM-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-19" value="Arquivo de Controle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="216" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-20" value="Arquivo de Carga" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="185" y="340" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bPgU5AWaPYfsvX3QOXEM-21" target="bPgU5AWaPYfsvX3QOXEM-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nkJ9dE_cN656coopzMsH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;verticalAlign=middle;endArrow=classicThin;endFill=1;startArrow=none;startFill=0;" edge="1" parent="1" source="bPgU5AWaPYfsvX3QOXEM-21" target="nkJ9dE_cN656coopzMsH-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="230" />
+              <mxPoint x="710" y="300" />
+              <mxPoint x="489" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkJ9dE_cN656coopzMsH-15" value="Desabilita" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nkJ9dE_cN656coopzMsH-14">
+          <mxGeometry x="0.0922" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-21" value="&lt;font&gt;Lambda Controle Disparo &lt;/font&gt;&lt;br&gt;&lt;font&gt;Pós Fluxo&lt;/font&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="758.5" y="174" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bPgU5AWaPYfsvX3QOXEM-17" target="bPgU5AWaPYfsvX3QOXEM-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bPgU5AWaPYfsvX3QOXEM-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="793" y="-30" />
+              <mxPoint x="430" y="-30" />
+              <mxPoint x="430" y="10" />
+              <mxPoint x="402" y="10" />
+            </Array>
+            <mxPoint x="400" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-25" value="Escrita" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bPgU5AWaPYfsvX3QOXEM-24" vertex="1" connectable="0">
+          <mxGeometry x="0.3208" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-26" value="StepFunction &lt;br&gt;&lt;font&gt;Transformação para SOT&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.step_functions;" parent="1" vertex="1">
+          <mxGeometry x="990" y="171" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-30" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" parent="1" vertex="1">
+          <mxGeometry x="133" y="-254" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-31" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" parent="1" vertex="1">
+          <mxGeometry x="150" y="-240" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-32" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" parent="1" vertex="1">
+          <mxGeometry x="165" y="-230" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-34" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" parent="1" vertex="1">
+          <mxGeometry x="180" y="-219" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-33" value="OKEY" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="193" y="-208" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-36" value="Arquivo de Carga e Arquivo de Controle" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="90" y="-60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-42" value="&lt;div&gt;Esta lambda vai receber o evento no EventBridge&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pegar a Coluna do somatório (Como não vai esperar o arquivo de controle, este atributo precisa ser travado via harcorde);&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Apagar o item no Dínamo de Arquivos Processados caso ele exista na tabela;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Iniciar a Stepftuncion da SOR&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="203" y="440" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-43" value="&lt;div&gt;Esta lambda vai receber o evento no EventBridge&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Inserir os arquivos de controle no Dynamo&lt;br&gt;(Gerar um UUID_de_execucao/timestamp_de_execucao)&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Quando ele receber o Arquivo OK, e&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;le vai acionar a lambda POS fluxo para consumir a fila SQS&lt;br&gt;E também, vai ativar um EventBridge agenda de 30min ou 1hora&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="30" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-44" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bPgU5AWaPYfsvX3QOXEM-45" value="&lt;div&gt;Problemáticas:&lt;/div&gt;&lt;div&gt;* Qnd chegar o arquivo de OK, se tiver algum arquivo ainda processando na STF pode ter um problema.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="410" y="-129" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nkJ9dE_cN656coopzMsH-2" value="&lt;div&gt;Vai receber os eventos da fila SQS&lt;br&gt;&lt;br&gt;Obter o AnoMes através do Arquivo de Disparo (Ok.txt)&lt;br&gt;&lt;br&gt;Verificar se o item está APTO.&lt;br&gt;&lt;br&gt;Caso Esteja APTO:&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;Fazer as seguintes pesquisas no DynamoDB.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;        (U&lt;/span&gt;&lt;/span&gt;tilizando o MesRef e UUID_de_execução para prender tudo)&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Na tabelas:&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&#x9;&lt;/span&gt;Arquivos Processados: Fazer a contagem de quantos itens APTOS existem.&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;Arquivos Referencia:&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Fazer a contagem de quantos itens estavam sendo esperados&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Se a contagem bater:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Inicia a STF da Transf. para a SOT&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Desativa o EventBridge Schedule.&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;else:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Finaliza Lambda:&lt;br&gt;&lt;/div&gt;&lt;div&gt;else:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Desativa o EventBridge Schedule&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Aciona um SNS.&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Finaliza a Lambda.&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-200" width="760" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="nkJ9dE_cN656coopzMsH-3" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" vertex="1" parent="1">
+          <mxGeometry x="232" y="160" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="nkJ9dE_cN656coopzMsH-5" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" vertex="1" parent="1">
+          <mxGeometry x="223" y="300" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nkJ9dE_cN656coopzMsH-6" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/SchedulerJobCollection.svg;" vertex="1" parent="1">
+          <mxGeometry x="600" y="207" width="50" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="nkJ9dE_cN656coopzMsH-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.022;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nkJ9dE_cN656coopzMsH-7" target="bPgU5AWaPYfsvX3QOXEM-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="241" />
+              <mxPoint x="570" y="270" />
+              <mxPoint x="690" y="270" />
+              <mxPoint x="690" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkJ9dE_cN656coopzMsH-10" value="Ativa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nkJ9dE_cN656coopzMsH-8">
+          <mxGeometry x="-0.1498" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkJ9dE_cN656coopzMsH-7" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" vertex="1" parent="1">
+          <mxGeometry x="470" y="212" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="nkJ9dE_cN656coopzMsH-9" value="de 1h em 1h, ou&lt;br&gt;de 30min em 30 min." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570.5" y="165" width="188" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nkJ9dE_cN656coopzMsH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bPgU5AWaPYfsvX3QOXEM-6" target="nkJ9dE_cN656coopzMsH-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="210" />
+              <mxPoint x="430" y="192" />
+              <mxPoint x="489" y="192" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkJ9dE_cN656coopzMsH-12" value="Habilita" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="nkJ9dE_cN656coopzMsH-11">
+          <mxGeometry x="0.1726" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
